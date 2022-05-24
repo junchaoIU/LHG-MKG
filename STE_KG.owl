@@ -1,0 +1,655 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-12="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#图片行为 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#图片行为"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#影响因素类型 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#影响因素类型"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#环境胁迫 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#环境胁迫"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#病害 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#病害"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#相关图片 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#相关图片"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#相关视频 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#相关视频"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#行为细节 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#行为细节">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#视频行为 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#视频行为"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头颈部 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头颈部"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Action_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Action_Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Disease_Factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Disease_Factor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Environment_Factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Environment_Factor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feet_Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feet_Feather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Head_Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Head_Feather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Image"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Action_Type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Neck_Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Neck_Feather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Action_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Stool_Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Stool_Feather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Video -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Video"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Voice_Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Voice_Feather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Wing_Feather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Wing_Feather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feather"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#两翅下垂行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#两翅下垂行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#疾病因素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#两翅支撑身体行走 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#两翅支撑身体行走">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Wing_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#可能死亡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#可能死亡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Disease_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#可能缺乏营养 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#可能缺乏营养">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Disease_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#呆立咳嗽行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#呆立咳嗽行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#疾病因素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#啄羽行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#啄羽行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#环境因素"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄自尾或其它个体（大多数背部）至受伤"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#啄肛行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#啄肛行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#环境因素"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄肛门"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#啮齿行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#啮齿行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#摄食行为"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄泥"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头部往水中移动"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#站在水中"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#颈部弯曲"/>
+        <头颈部>头部往水中移动、颈部弯曲</头颈部>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙咬住对方头部的羽毛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙咬住对方头部的羽毛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄泥 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄泥">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄肛门 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄肛门">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄自尾或其它个体（大多数背部）至受伤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄自尾或其它个体（大多数背部）至受伤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄自身的翅膀和身体 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄自身的翅膀和身体">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄食其他食物甚至物体 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄食其他食物甚至物体">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Beak_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#天气 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#天气">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Environment_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头部往水中移动 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头部往水中移动">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Head_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头部点头 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头部点头">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Head_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#嬉水行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#嬉水行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#异食癖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#异食癖">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#环境因素"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#喙啄食其他食物甚至物体"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#感染默氏杆菌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#感染默氏杆菌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Environment_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#排泄物稀且薄 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#排泄物稀且薄">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Stool_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#摄食行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#摄食行为"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#梳理行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#梳理行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#湿度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#湿度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Environment_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#环境因素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#环境因素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#疾病因素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#疾病因素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Factor_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#睡眠行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#睡眠行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action"/>
+        <头颈部>头部不动或藏于翅膀之下不动、颈部直立或弯曲</头颈部>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#站在异性身上 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#站在异性身上">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feet_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#站在水中 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#站在水中">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feet_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#粪便呈灰绿色 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#粪便呈灰绿色">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Stool_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#粪便呈灰黄色 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#粪便呈灰黄色">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Stool_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#粪便恶臭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#粪便恶臭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Stool_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#繁殖行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#繁殖行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#头部点头"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#翅膀展开"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#颈部伸直"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#缩脖嗜睡行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#缩脖嗜睡行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#疾病因素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#翅膀展开 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#翅膀展开">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Wing_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力_image_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力_image_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Image"/>
+        <图片行为 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力行为"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力_video_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力_video_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Video"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#疾病因素"/>
+        <环境胁迫 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#饲料单一"/>
+        <病害 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚软病"/>
+        <相关图片 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力_image_1"/>
+        <相关视频 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力_video_1"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#两翅支撑身体行走"/>
+        <行为细节 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚软无力"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚软无力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚软无力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Feet_Feather"/>
+        <视频行为 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚无力行为"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚软病 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#脚软病">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Disease_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#警觉反应行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#警觉反应行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Normal_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#颈部伸直 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#颈部伸直">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Neck_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#颈部弯曲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#颈部弯曲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Neck_Feather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#饮水增加行为 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#饮水增加行为">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Innormal_Action"/>
+        <影响因素类型 rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#疾病因素"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#饲料单一 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#饲料单一">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Environment_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#鸭浆膜炎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#鸭浆膜炎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#Disease_Factor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boss/ontologies/2022/4/untitled-ontology-12#啮齿行为"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
